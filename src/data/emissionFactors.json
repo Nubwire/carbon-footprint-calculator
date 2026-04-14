@@ -1,0 +1,102 @@
+{
+  "transportation": {
+    "car_gasoline": {
+      "factor": 0.404,
+      "unit": "kg CO2e per mile",
+      "source": "EPA 2023 - Average Passenger Vehicle",
+      "source_url": "https://www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle",
+      "last_updated": "2024-01-15"
+    },
+    "car_diesel": {
+      "factor": 0.370,
+      "unit": "kg CO2e per mile",
+      "source": "EPA 2023",
+      "source_url": "https://www.epa.gov/greenvehicles",
+      "last_updated": "2024-01-15"
+    },
+    "car_hybrid": {
+      "factor": 0.250,
+      "unit": "kg CO2e per mile",
+      "source": "EPA 2023 - Average Hybrid Vehicle",
+      "source_url": "https://www.epa.gov/greenvehicles",
+      "last_updated": "2024-01-15"
+    },
+    "car_plugin_hybrid": {
+      "factor": 0.180,
+      "unit": "kg CO2e per mile",
+      "source": "EPA 2023 - Average PHEV",
+      "source_url": "https://www.epa.gov/greenvehicles",
+      "last_updated": "2024-01-15"
+    },
+    "car_electric": {
+      "factor": 0.110,
+      "unit": "kg CO2e per mile",
+      "source": "EPA 2023 - US Average Grid, EIA 2023",
+      "source_url": "https://www.epa.gov/greenvehicles",
+      "last_updated": "2024-01-15"
+    },
+    "motorcycle": {
+      "factor": 0.220,
+      "unit": "kg CO2e per mile",
+      "source": "EIA estimates",
+      "source_url": "https://www.eia.gov",
+      "last_updated": "2024-01-15"
+    },
+    "bus": {
+      "factor": 0.080,
+      "unit": "kg CO2e per passenger mile",
+      "source": "FTA National Transit Database 2022",
+      "source_url": "https://www.transit.dot.gov/ntd",
+      "last_updated": "2024-01-15"
+    },
+    "train": {
+      "factor": 0.040,
+      "unit": "kg CO2e per passenger mile",
+      "source": "Amtrak Sustainability Report 2022, FRA data",
+      "source_url": "https://www.amtrak.com/sustainability",
+      "last_updated": "2024-01-15"
+    },
+    "ebike": {
+      "factor": 0.005,
+      "unit": "kg CO2e per mile",
+      "source": "European Cyclists Federation, adjusted for US grid",
+      "source_url": "https://ecf.com",
+      "last_updated": "2024-01-15"
+    },
+    "bicycle": {
+      "factor": 0,
+      "unit": "kg CO2e per mile",
+      "source": "N/A - Zero direct emissions",
+      "source_url": "",
+      "last_updated": "2024-01-15"
+    },
+    "walk": {
+      "factor": 0,
+      "unit": "kg CO2e per mile",
+      "source": "N/A - Zero direct emissions",
+      "source_url": "",
+      "last_updated": "2024-01-15"
+    }
+  },
+  "equivalencies": {
+    "smartphones_charged_per_kg_co2": 122,
+    "tree_years_per_ton_co2": 16.5,
+    "miles_driven_avg_car_per_kg_co2": 2.47,
+    "sources": {
+      "smartphones": "EPA Equivalencies Calculator 2023",
+      "trees": "EPA Equivalencies Calculator 2023",
+      "miles": "EPA 2023"
+    }
+  },
+  "national_averages": {
+    "us_annual_per_capita_tons": 16.0,
+    "global_annual_per_capita_tons": 4.7,
+    "us_avg_commute_miles_one_way": 16,
+    "us_avg_commute_days_per_year": 235,
+    "sources": {
+      "us_per_capita": "World Bank 2021, EPA 2023",
+      "global_per_capita": "World Bank 2021",
+      "commute": "US Census Bureau ACS 2022"
+    }
+  }
+}
