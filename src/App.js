@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import HomeScreen from './screens/HomeScreen';
 import TransportScreen from './screens/TransportScreen';
+import FoodScreen from './screens/FoodScreen';
 import MethodologyScreen from './screens/MethodologyScreen';
 
 function App() {
@@ -15,6 +16,10 @@ function App() {
 
   if (currentScreen === 'transport') {
     return <TransportScreen onBack={function() { navigate('home'); }} />;
+  }
+
+  if (currentScreen === 'food') {
+    return <FoodScreen onBack={function() { navigate('home'); }} />;
   }
 
   if (currentScreen === 'methodology') {
