@@ -3,7 +3,7 @@ import React from 'react';
 function HomeScreen(props) {
   var categories = [
     { name: 'Transportation', icon: '🚗', key: 'transport', available: true },
-    { name: 'Food & Diet', icon: '🍽️', key: 'food', available: false },
+    { name: 'Food & Diet', icon: '🍽️', key: 'food', available: true },
     { name: 'Home Energy', icon: '🏠', key: 'energy', available: false },
     { name: 'Purchases', icon: '🛍️', key: 'purchases', available: false },
     { name: 'Travel', icon: '✈️', key: 'travel', available: false }
